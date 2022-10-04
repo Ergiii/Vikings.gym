@@ -1,0 +1,124 @@
+.body1 {
+  -webkit-animation: colorchange 18s infinite;
+  animation: colorchange 18s infinite;
+}
+@-webkit-keyframes colorchange {
+  10% {
+    background: #9c8c8b;
+  }
+  25% {
+    background: #8a5d55;
+  }
+  50% {
+    background: #995e66;
+  }
+  75% {
+    background: #86676b;
+  }
+
+  90% {
+    background: #770008;
+  }
+}
+@keyframes colorchange {
+  15% {
+    background: #cc0a25;
+  }
+  25% {
+    background: #d01913;
+  }
+  50% {
+    background: #800f07;
+  }
+  75% {
+    background: #8f4c4c;
+  }
+  90% {
+    background: #91817c;
+  }
+}
+
+.glow {
+  font-size: 80px;
+  color: #c5bebe;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+  font-family: "Ubuntu"
+}
+
+@-webkit-keyframes glow {
+  from {
+  text-shadow: 0 0 10px #c5bebe, 0 0 20px #fff, 0 0 30px #fd0e35, 0 0 40px #fd0e35, 0 0 50px #fd0e35, 0 0 60px #fd0e35, 0 0 70px #fd0e35;
+ }
+  to {
+    text-shadow: 0 0 20px #c5bebe, 0 0 30px #e91128, 0 0 40px #e91128, 0 0 50px #e91128, 0 0 60px #e91128, 0 0 70px #e91128, 0 0 80px #e91128;
+  }
+}
+.hr3 {
+   height: 15px;
+   border: 0;
+   box-shadow: inset 0 12px 12px -12px #cc0a25;
+ }
+ .hr1 {
+   background-color: #cc0a25;
+   border-style: none;
+   height: 3px;
+ }
+ .hr2 {
+   width: 40%;
+   border-style: none;
+   border-top: dotted;
+   border-color: grey;
+   border-width: 10px;
+
+ }
+ .body2 {
+   background-Image: url('http://wallup.net/wp-content/uploads/2016/05/24/359492-Dark_Souls_III-Dark_Souls-dark-Gothic-midevil-knights-magic-landscape.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100% 100%;
+ }
+ .gg {
+   width: 40%;
+   height: 55%;
+ }
+ .ivarii {
+   border-radius: 20%;
+ }
+ .giphy {
+   width: 200px;
+   margin-top: ;
+   height: 100px;
+   width: 300px;
+ }
+ .thu {
+   font-family: "Montserrat-bold";
+   font-weight: bold;
+   padding-top: 20px;
+   padding-bottom: 20px;
+ }
+ .carousel-item{
+   padding-bottom: 3rem;
+ }
+.pu {
+  height: 600px;
+  width:
+}
+.bottom-container {
+  background-color: #282828;
+  padding: 50px 0 30px;
+  margin-top: 20px;
+  color: white;
+}
+.i1 {
+  font-family: algerian;
+  font-weight: bold;
+  padding-right: 30px;
+  font-size: 70px;
+}
+.i2 {
+  font-family: algerian;
+  font-weight: bolder;
+  padding-left: 30px;
+  font-size: 70px;
+}
